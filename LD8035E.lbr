@@ -87,25 +87,28 @@
 <pad name="12P" x="2" y="-3.46" drill="0.6"/>
 <pad name="11P" x="3.46" y="-2" drill="0.6"/>
 <text x="-0.508" y="-3.175" size="0.6096" layer="21">+F</text>
+<text x="-2.54" y="0" size="1.016" layer="21">&gt;NAME</text>
+<text x="-2.54" y="-1.27" size="1.016" layer="21">LD8035E</text>
 </package>
 </packages>
 <symbols>
 <symbol name="LD8035E">
 <description>7-segment vacuum fluorescent display</description>
-<circle x="0" y="0" radius="20.32" width="0.254" layer="94"/>
-<pin name="10P" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="7P" x="0" y="25.4" length="middle" rot="R270"/>
-<pin name="-F" x="-25.4" y="0" length="middle"/>
-<pin name="+F" x="0" y="-25.4" length="middle" rot="R90"/>
-<pin name="12P" x="10.16" y="-22.86" length="middle" rot="R90"/>
-<pin name="11P" x="22.86" y="-10.16" length="middle" rot="R180"/>
-<pin name="2P" x="-10.16" y="-22.86" length="middle" rot="R90"/>
-<pin name="G" x="-22.86" y="-10.16" length="middle"/>
-<pin name="5P" x="-22.86" y="10.16" length="middle"/>
-<pin name="6P" x="-10.16" y="22.86" length="middle" rot="R270"/>
-<pin name="8P" x="10.16" y="22.86" length="middle" rot="R270"/>
-<pin name="9P" x="22.86" y="10.16" length="middle" rot="R180"/>
-<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<circle x="0" y="0" radius="4" width="0.254" layer="94"/>
+<pin name="+F" x="0" y="-6.5" visible="pad" length="short" rot="R90"/>
+<pin name="2P" x="-2" y="-5.96" visible="pad" length="short" rot="R90"/>
+<pin name="G" x="-5.96" y="-2" visible="pad" length="short"/>
+<pin name="-F" x="-6.5" y="0" visible="pad" length="short"/>
+<pin name="5P" x="-5.96" y="2" visible="pad" length="short"/>
+<pin name="6P" x="-2" y="5.96" visible="pad" length="short" rot="R270"/>
+<pin name="7P" x="0" y="6.5" visible="pad" length="short" rot="R270"/>
+<pin name="8P" x="2" y="5.96" visible="pad" length="short" rot="R270"/>
+<pin name="9P" x="5.96" y="2" visible="pad" length="short" rot="R180"/>
+<pin name="10P" x="6.5" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="11P" x="5.96" y="-2" visible="pad" length="short" rot="R180"/>
+<pin name="12P" x="2" y="-5.96" visible="pad" length="short" rot="R90"/>
+<text x="-2.54" y="1.27" size="1.016" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-1.27" size="1.016" layer="95">LD8035E</text>
 </symbol>
 </symbols>
 <devicesets>
